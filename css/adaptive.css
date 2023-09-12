@@ -1,0 +1,758 @@
+@media (max-width:  1440px){
+    .rectangle .rect-1{
+        right: 215px;
+    }
+    .scroll{
+        margin-top: 0;
+    }
+    table{
+        margin: 0 50px;
+    }
+    .rectangle .rect-3 {
+        top: 500px;
+    }
+    .rectangle .rect-4 {
+        bottom: 515px;
+    }
+    .s-coaches{
+        overflow: hidden;
+    }
+    .question-mail{
+        margin-right: 120px;
+    }
+    .s-contacts .contact {
+        left: 100px;
+    }
+}
+@media only screen and (max-width:  1200px){
+    .rectangle .rect-1 {
+        right: 230px;
+        top: -40px;
+    }
+    .head{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .menu li:last-child {
+        margin-left: 100px;
+    }
+    h1{
+        margin-top: 28vh;
+    }
+    .links{
+        margin-right: 60px;
+        margin-top: 18vh;
+    }
+    .price{
+        margin: 0 50px;
+    }
+    .about{
+        justify-content: space-around;
+    }
+    .about-img{
+        margin-right: 0;
+    }
+    .about-text{
+        width: auto;
+        margin-left: -70px;
+    }
+    .about-p{
+        width: 400px;
+    }
+    .about-icons > div{
+        font-size: 46px;
+    }
+    .icon-text{
+        font-size: 16px;
+        width: 150px;
+    }
+    .s-gallery {
+        padding: 0 0 100px;
+    }
+    .wrapper{
+        width: auto;
+    }
+    .s-coaches .rectangle{
+        top: 10px;
+        left: -32px;
+        z-index: 1;
+    }
+    .s-coaches h2{
+        display: none;
+    }
+    .question-mail {
+        margin-right: 0px;
+    }
+    .footer-section {
+        background-color: #000;
+        padding: 80px 30px 30px;
+    }
+    .footer-end {
+        display: block;
+    }
+}
+@media only screen and (max-width:  1024px){
+    .rectangle .rect-1 {
+        right: 290px;
+        top: -40px;
+    }
+    .head{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+    }
+    .head .logo{
+        position: absolute;
+        top: 0;
+        left: 40px;
+    }
+    .menu{
+        margin-top: 90px;
+    }
+    .menu li:last-child {
+        position: absolute;
+        top: 0;
+        right: 40px;
+    }
+    h1 {
+        margin-top: 21vh;
+    }
+    .about{
+        flex-wrap: wrap-reverse;
+        margin-bottom: 0;
+    }
+    .about h2{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .about-text{
+        width: 815px;
+        text-align: center;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .about-p{
+        width: auto;
+    }
+    .about-btn{
+        margin-bottom: 60px;
+    }
+    .about-img {
+        margin: 0;
+    }
+    .about-img img:last-child{
+        position: static;
+        margin-left: 55px;
+    }
+    .icon-box{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-icons {
+        flex-wrap: wrap;
+        gap: 17%;
+        justify-content: center;
+    }
+    .about-icons > div{
+        font-size: 64px;
+        text-align: center;
+        margin-top: 65px;
+    }
+    .icon-text{
+        font-size: 18px;
+        width: 215px;
+    }
+    .slick-dots{
+        width: auto;
+    }
+    .slider{
+        width: 1000px;
+    }
+    .sliderbig{
+        width: 1000px;
+    }
+    .rectangle .rect-3 {
+        top: 545px;
+    }
+    .rectangle .rect-4 {
+        bottom: 565px;
+    }
+    .s-gallery{
+        margin-top: -1px;
+        z-index: 2;
+    }
+    .sliderbig{
+        z-index: 2;
+    }
+    .s-contacts .contact {
+        width: 360px;
+    }
+    .s-gallery .rectangle{
+        z-index: 1;
+    }
+    .price{
+        margin-bottom: 80px;
+    }
+    .price-by-time{
+        margin-bottom: 80px;
+    }
+    .slider_coach{
+        width: 1045px;
+    }
+    .footer{
+        justify-content: space-around;
+    }
+    .footer-center{
+        display: block;
+    }
+    .footer-end div {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .footer-end div:first-child{
+        margin-right: 50px;
+    }
+    .footer-end div:first-child {
+        margin-right: 0;
+    }
+}
+@media (max-width:  768px){
+    .rectangle .rect-1 {
+        right: 250px;
+        top: -40px;
+    }
+    .head .logo{
+        left: 0;
+    }
+    .head .menu{
+        margin-top: 100px;
+    }
+    .menu li:last-child {
+        right: 0;
+    }
+    h1{
+        font-size: 58px;
+        margin-top: 20vh;
+    }
+    .about-p {
+        width: 700px;
+        margin: 0 auto;
+    }
+    .slider{
+        width: 700px;
+    }
+    .sliderbig{
+        width: 700px;
+    }
+    .price {
+        margin: 0 auto;
+    }
+    table:first-child{
+        margin-bottom: 80px;
+    }
+    .rectangle .rect-3 {
+        top: 490px;
+    }
+    table{
+        max-width: 100%;
+    }
+    table th{
+        font-size: 15px;
+    }
+    table td{
+        font-size: 14px;
+        padding: 45px 4px 0;
+    }
+    table tr{
+        margin: 0 auto;
+    }
+    .price-by-time{
+        margin-bottom: 0;
+    }
+    .rectangle .rect-4 {
+        bottom: 525px;
+    }
+    .slider_coach {
+        width: 750px;
+    }
+    .arrow{
+        right: 41%;
+    }
+    .question-mail{
+        margin-right: 0;
+    }
+    .s-gallery .rectangle{
+        bottom: -4px;
+    }
+    .solid{
+        display: flex;
+        flex-flow: row-reverse;
+        justify-content: center;
+    }
+    .solid span{
+        margin-left: 5px;
+        margin-top: 8px;
+    }
+    .solid > div{
+        margin-right: 5px;
+    }
+    .card{
+        width: 232px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .card h5 {
+        width: 220px;
+    }
+    .card-btn{
+        width: 150px;
+    }
+    .card-btn > div{
+        width: auto;
+    }
+    .s-contacts .contact {
+        left: 20px;
+    }
+    .footer-center{
+        display: block;
+    }
+    .footer-end{
+        display: block;
+    }
+    .footer-center .div{
+        margin-right: 0;
+    }
+    .footer-end .div{
+        margin-right: 0;
+    }
+}
+@media (min-width: 650px) {
+    .about-p {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .about-img {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-img img:last-child {
+        margin-left: 0;
+    }
+    .wrapper{
+        width: 650px;
+    }
+    .cards {
+        display: block;
+    }
+    .card{
+        width: 350px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .card-btn > div {
+        margin-left: 0px;
+    }
+    .card h5 {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .card-btn {
+        width: 220px;
+    }
+    .question-mail{
+        position: static;
+        margin: 90px auto 0;
+    }
+}
+/* До 425px */
+@media (max-width:  425px){
+    .head{
+        display: flex;
+        justify-content: right;
+        position: static;
+    }
+    .head .logo {
+        left: 0px;
+    }
+    .head .menu {
+        margin-top: 50px;
+        margin-right: 30px;
+    }
+    .show-menu{
+        margin-top: 35px;
+        width: 100%;
+        background-color: #000;
+        display: block;
+        position: absolute;
+        left: 0;
+    }
+    .menu{
+        display: block;
+    }
+    .hide{
+        display: none;
+    }
+    .show-menu ul{
+       display: flex; 
+       padding: 30px 20px;
+       flex-flow: column wrap;
+    }
+    .menu li a {
+        font-size: 18px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        padding: 10px;
+        justify-content: center;
+        transition: all 0.5s ease;
+    }
+    .menu li:last-child {
+        position: static;
+        margin-left: 0;
+    }
+    .burger-menu{
+        width: 30px;
+        height: 24px;
+        cursor: pointer;
+        position: relative;
+    }
+    .burger-line{
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        border-radius: 10px;
+        transition: .3s all linear;
+    }
+    .burger-line-first{
+        top: 0;
+    }
+    .burger-line-second, .burger-line-third{
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .burger-line-fourth{
+        bottom: 0;
+    }
+    .burger-active .burger-line-first, .burger-active .burger-line-fourth{
+        opacity: 0;
+    }
+    .burger-active .burger-line-second{
+        transform: translateY(-50%) rotate(45deg);
+    }
+    .burger-active .burger-line-third{
+        transform: translateY(-50%) rotate(-45deg);
+    }
+    .rectangle .rect-1 {
+        right: 70px;
+    }
+    h1 {
+        font-size: 48px;
+        margin-top: 25vh;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .rectangle .rect-2 {
+        position: absolute;
+        bottom: 32px;
+        left: -50px;
+        width: 185px;
+    }
+    .about-p {
+        width: 385px;
+        text-align: left;
+    }
+    .about-img {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-img img:last-child {
+        position: relative;
+        top: 50px;
+        margin-left: 0;
+    }
+    .icon-text {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .s-price{
+        overflow: auto;
+    }
+    .s-price h2 {
+        margin-bottom: 65px;
+    }
+    #table-scroll::-webkit-scrollbar-track {
+        background-color: #fff;
+    }
+    
+    #table-scroll::-webkit-scrollbar {
+        width: 3px;
+        background-color: #fff;
+    }
+    
+    #table-scroll::-webkit-scrollbar-thumb {
+        background-color: #F7931E;
+    }
+    .table-price{
+        width: 768px;
+        overflow-x: scroll;
+    }
+    .table-price-by-time{
+        width: 768px;
+        overflow-x: scroll;
+    }
+    .cards {
+        display: block;
+    }
+    .card{
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .card-btn > div {
+        margin-left: 0px;
+    }
+    .card h5 {
+        width: 228px;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .question-mail {
+        margin-right: -40px;
+    }
+    .slider{
+        width: 400px;
+    }
+    .sliderbig{
+        width: 330px;
+    }
+    .sliderbig__item img{
+        max-width: 86%;
+    }
+    .sliderbig {
+        position: relative;
+        padding: 0px 20px;
+    }
+    .slider_coach{
+        width: 400px;
+    }
+    .arrow {
+        right: 36%;
+    }
+    .s-contacts .contact {
+        min-width: 100%;
+        left: 0px;
+        top: 150px;
+    }
+    .contact h3 {
+        margin: 50px 0 50px 0px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .s-contacts .contact {
+        margin-top: 75px;
+    }
+    .footer{
+        display: block;
+        padding-left: 30px;
+    }
+    .footer-center{
+        display: none;
+    }
+    .footer img{
+        margin-left: -30px;
+    }
+    .footer img {
+        margin-top: 0;
+    }
+    .footer-section {
+        padding: 110px 0 -1px;
+    }
+}
+/* @media (max-width: 399.98px){
+    .rectangle .rect-1 {
+        right: 60px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .about{
+        margin-bottom: -70px;
+    }
+    .about-img{
+        text-align: center;
+        margin-left: 0;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    .about-img img:last-child {
+        margin-bottom: 100px;
+    }
+    .about-text {
+        max-width: 100%;
+    }
+    .about-p {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .slider {
+    width: 375px;
+    padding: 20px;
+    }
+    .sliderbig {
+        position: relative;
+        padding: 20px;
+        width: 375px
+    }
+    table {
+        margin-left: 10px;
+    }
+    table td{
+        padding: 20px;
+    }
+    table:first-child {
+        margin-bottom: 0;
+    }
+    .table-price {
+        margin-bottom: 60px;
+    }
+    .table-price-by-time {
+        margin-bottom: 60px;
+    }
+    .question-mail {
+        min-width: 100%;
+        position: static;
+        margin-top: 85px;
+    }
+    .question-mail p {
+       width: 305px;
+       margin: 0 auto 10px;
+    }   
+    .question-mail .confident {
+        padding: 0px 10px 0px 10px;
+    }
+    .footer{
+        padding-bottom: 25px;
+    }
+} */
+/* До 375px__________________________________________________________________________ */
+@media (max-width: 374.98px){
+    header{
+        height: 82vh;
+    }
+    header .overlay{
+        height: 82vh;
+    }
+    .burger-menu {
+        width: 27px;
+        height: 24px;
+    }
+    .burger-line {
+        height: 3px;
+    }
+    h1 {
+        font-size: 38px;
+        margin-top: 19vh;
+    }
+    .about-text {
+        max-width: 100%;
+        padding: 0px 8px;
+    }
+    .about-btn {
+        width: 230px;
+        height: 57px;
+    }
+    .about-btn > div {
+        font-size: 14px;
+    }
+    /* видалити коли заміню */
+    .rectangle .rect-1{
+        display:none;
+    }
+    .rectangle .rect-2{
+        display: none;
+    }
+    .links{
+        margin-right: 30px;
+        margin-top: 12vh;
+    }
+    .slider {
+        width: 320px;
+        padding: 8px;
+    }
+    .sliderbig {
+        width: 320px;
+    }
+    .sliderbig {
+        padding: 0px 15px 0px 0px;
+    }
+    .card {
+        width: 275px;
+    }
+    .slider_coach {
+        width: 320px;
+    }
+    .slider_coach {
+        padding: 0px 25px 15px 25px;
+    }
+    .arrow{
+        right: 30%;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .header-btn {
+        width: 215px;
+    }
+    .header-btn > div{
+        font-size: 14px;
+    }
+    .question-mail {
+        width: 310px;
+        min-width: 100%;
+    }
+    .question-mail p {
+        width: 250px;
+    }
+    form input{
+        width: 260px;
+    }
+    form .btn-form {
+        width: 220px;
+    }
+    form .btn-form > div {
+        font-size: 14px;
+    }
+    .contact .align-box > div {
+        width: 270px;
+    }
+    .icon{
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    .align-phone p{
+        font-size: 14px;
+    }
+    .icon > p{
+        font-size: 14px;
+    }
+    .s-contacts span{
+        font-size: 14px;
+    }
+    .s-contacts .contact {
+        max-width: 100%;
+    }
+    .footer-section {
+        padding: 70px 0 0;
+    }   
+}

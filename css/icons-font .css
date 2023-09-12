@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'icon';
+  src:  url('fonts/icon.eot?9zkxof');
+  src:  url('fonts/icon.eot?9zkxof#iefix') format('embedded-opentype'),
+    url('../fonts/icon.ttf?9zkxof') format('truetype'),
+    url('../fonts/icon.woff?9zkxof') format('woff'),
+    url('../fonts/icon.svg?9zkxof#icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-ios-upward:before {
+  content: "\e900";
+}
+.icon-arrow-left:before {
+  content: "\e901";
+}
+.icon-arrow-right:before {
+  content: "\e902";
+}
+.icon-clock:before {
+  content: "\e903";
+}
+.icon-dumbbell:before {
+  content: "\e904";
+}
+.icon-gym-time:before {
+  content: "\e905";
+}
+.icon-instagram:before {
+  content: "\e906";
+}
+.icon-location:before {
+  content: "\e907";
+}
+.icon-phone:before {
+  content: "\e908";
+}
+.icon-stationary-bike:before {
+  content: "\e909";
+}
+.icon-vk:before {
+  content: "\e90a";
+}
+.icon-wallet:before {
+  content: "\e90b";
+}
+.icon-bars:before {
+  content: "\e900";
+}
+.icon-xmark:before {
+  content: "\e901";
+}
