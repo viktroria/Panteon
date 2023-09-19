@@ -69,6 +69,12 @@
     .s-gallery {
         padding: 0 0 100px;
     }
+    .slider{
+        max-width: 1080px;
+    }
+    .sliderbig {
+        max-width: 1080px;
+    }
     .wrapper{
         width: auto;
     }
@@ -79,6 +85,9 @@
     }
     .s-coaches h2{
         display: none;
+    }
+    .slider_coach {
+        max-width: 1200px;
     }
     .question-mail {
         margin-right: 0px;
@@ -166,10 +175,10 @@
         width: auto;
     }
     .slider{
-        width: 1000px;
+        width: 970px;
     }
     .sliderbig{
-        width: 1000px;
+        width: 970px;
     }
     .rectangle .rect-3 {
         top: 545px;
@@ -324,46 +333,6 @@
     }
     .footer-end .div{
         margin-right: 0;
-    }
-}
-@media (min-width: 650px) {
-    .about-p {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .about-img {
-        display: flex;
-        flex-direction: column;
-    }
-    .about-img img:last-child {
-        margin-left: 0;
-    }
-    .wrapper{
-        width: 650px;
-    }
-    .cards {
-        display: block;
-    }
-    .card{
-        width: 350px;
-        margin: 0 auto;
-        margin-top: 50px;
-    }
-    .card-btn > div {
-        margin-left: 0px;
-    }
-    .card h5 {
-        width: 100%;
-        margin: 0 auto;
-        padding-top: 40px;
-        padding-bottom: 30px;
-    }
-    .card-btn {
-        width: 220px;
-    }
-    .question-mail{
-        position: static;
-        margin: 90px auto 0;
     }
 }
 /* До 425px */
@@ -575,78 +544,8 @@
         padding: 110px 0 -1px;
     }
 }
-/* @media (max-width: 399.98px){
-    .rectangle .rect-1 {
-        right: 60px;
-    }
-    h2 {
-        font-size: 28px;
-    }
-    .about{
-        margin-bottom: -70px;
-    }
-    .about-img{
-        text-align: center;
-        margin-left: 0;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-    .about-img img{
-        width: 100%;
-    }
-    .about-img img:last-child {
-        margin-bottom: 100px;
-    }
-    .about-text {
-        max-width: 100%;
-    }
-    .about-p {
-        max-width: 100%;
-        text-align: center;
-        margin-bottom: 25px;
-    }
-    .slider {
-    width: 375px;
-    padding: 20px;
-    }
-    .sliderbig {
-        position: relative;
-        padding: 20px;
-        width: 375px
-    }
-    table {
-        margin-left: 10px;
-    }
-    table td{
-        padding: 20px;
-    }
-    table:first-child {
-        margin-bottom: 0;
-    }
-    .table-price {
-        margin-bottom: 60px;
-    }
-    .table-price-by-time {
-        margin-bottom: 60px;
-    }
-    .question-mail {
-        min-width: 100%;
-        position: static;
-        margin-top: 85px;
-    }
-    .question-mail p {
-       width: 305px;
-       margin: 0 auto 10px;
-    }   
-    .question-mail .confident {
-        padding: 0px 10px 0px 10px;
-    }
-    .footer{
-        padding-bottom: 25px;
-    }
-} */
-/* До 375px__________________________________________________________________________ */
-@media (max-width: 374.98px){
+/* Від 320px__________________________________________________________________________ */
+@media (max-width: 320px){
     header{
         height: 82vh;
     }
@@ -664,9 +563,20 @@
         font-size: 38px;
         margin-top: 19vh;
     }
+    .about{
+        margin-bottom: 55px;
+    }
+    .about-p{
+        width: 100%;
+        left: 0;
+        text-align: center;  
+    }
     .about-text {
         max-width: 100%;
         padding: 0px 8px;
+    }
+    .about-img {
+        width: 85%;
     }
     .about-btn {
         width: 230px;
@@ -698,6 +608,8 @@
     }
     .card {
         width: 275px;
+        margin-bottom: 50px;
+        margin-top: 0;
     }
     .slider_coach {
         width: 320px;
@@ -716,13 +628,6 @@
     }
     .header-btn > div{
         font-size: 14px;
-    }
-    .question-mail {
-        width: 310px;
-        min-width: 100%;
-    }
-    .question-mail p {
-        width: 250px;
     }
     form input{
         width: 260px;
@@ -746,11 +651,33 @@
     .icon > p{
         font-size: 14px;
     }
+    .price {
+        margin: 0 auto 70px;
+    }
+    .price-by-time {
+        margin: 0 auto 70px;
+    }
+    .s-price h2 {
+        margin-bottom: 20px;
+    }
     .s-contacts span{
         font-size: 14px;
     }
     .s-contacts .contact {
         max-width: 100%;
+    }
+    .s-price {
+        padding: 100px 0 0;
+    }
+    .question-mail {
+        width: 310px;
+        min-width: 100%;
+        right: 0;
+        margin-right: 0;
+    }
+    .question-mail p {
+        width: 250px;
+        margin: 0 auto;
     }
     .footer-section {
         padding: 70px 0 0;
